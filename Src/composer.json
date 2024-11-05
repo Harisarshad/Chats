@@ -1,0 +1,20 @@
+{
+    "name": "modules/chats",
+    "description": "Chats Module for Laravel Application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Chats\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Chats\\Providers\\ChatsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
