@@ -6,7 +6,7 @@ create a directory in your laravel project 'modules'.
 ## Installation
 add this chat repo in module folder..
 
-## declaring route in app/Provider/AppServiceProvider.php
+## register route in app/Provider/AppServiceProvider.php
 add below line in your app/Provider/AppServiceProvider.php in boot function
 ## Usage
 
